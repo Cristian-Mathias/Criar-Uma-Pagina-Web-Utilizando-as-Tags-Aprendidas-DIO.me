@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página - Módulo I - Primeiros Passos com HTML</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+        }       
+    </style>
+</head>
+<body>
+    <h1 id="inicio">Módulo I - Primeiros Passos com HTML</h1>
+    <hr>
+    <h2>Índice</h2>
+    <p><strong><u>Instruções</u></strong></p>
+    <ul>
+        <li><a href="#html">O que é HTML?</a></li>
+        <li><a href="#estruturaBasicaHtml">Estrutura Básica do HTML</a></li>
+        <li><a href="#tituloHtml">Cabeçalhos ou Títulos HTML</a></li>
+        <li><a href="#atributosHtml">Atributos HTML</a></li>
+        <li><a href="#formataçãoHtml">Elementos de formatação HTML</a></li>
+        <li><a href="#referencias">Links de Referências</a></li>
+    </ul>
+
+    <h2 id="html">1<sup><small>o</small></sup> O que é HTML?</h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+    <p><abbr title="Hyper Text Markup Language">HTML</abbr> significa linguagem de marcação de hipertexto.
+    É a linguagem de marcação padrão que descreve a estrutura de uma página web.
+    O HTML consiste em uma série de elementos que informam ao navegador como exibir o conteúdo.
+    Esses elementos HTML rotulam partes do conteúdo como “este é um título”, “este é um parágrafo”, “este é um link”, etc.
+    </p>
+    
+    <h2 id="estruturaBasicaHtml">2<sup><small>o</small></sup> Estrutura Básica do HTML</h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+    <p>A estrutura básica do html é composta por diferentes elementos que formam o esqueleto de uma página da web.
+    Abaixo está a estrutura básica do HTML, que inclui as principais seções de um documento HTML padrão:</p>
+        <Ol>
+            <li> A <mark>&lt!DOCTYPE html&gt</mark> declaração define que este documento é um documento <strong>HTML5</strong>.</li>
+            <li> O <mark>&lt html &gt&lt /html &gt</mark> é o elemento raiz de uma página HTML.</li>
+            <li> O <mark>&lt head &gt&lt /head &gt</mark> é um elemento que contém meta informações sobre a página HTML.</li>
+            <li> O <mark>&lt title &gt&lt /title &gt</mark> é um elemento que especifica um título para a página HTML (<i><del> é mostrado na  barra de título do navegador ou na guia da página</del></i>).</li>
+            <li> O <mark>&lt body &gt&lt /body &gt</mark> elemento que define o corpo do documento e é um contêiner para todos os conteúdos visíveis, como títulos, parágrafos, imagens, hiperlinks, tabelas, listas, etc.</li>
+            <li> O <mark>&lt h1 &gt&lt /h1 &gt</mark> elemento define um título grande.</li>
+            <li> O <mark>&lt p &gt&lt /p &gt</mark> elemento define um parágrafo.</li>
+        </Ol>
+
+    <h2 id="tituloHtml">3<sup><small>o</small></sup> Cabeçalhos ou Títulos HTML</h2>
+    <small><a href="#inicio">(Voltar)</a></small> 
+    <p>Os títulos HTML são títulos ou legendas que você deseja exibir em uma página da web. Eles são definidos com as tags &lt h1 &gt até &lt h6 &gt. O &lt h1 &gt define o título mais importante. E o &lt h6 &gt define o título menos importante.
+    </p>
+
+    <h2 id="atributosHtml">4<sup><small>o</small></sup> Atributos HTML</h2>
+    <small><a href="#inicio">(Voltar)</a></small> 
+    <p>Todos os elementos HTML podem ter atributos, eles fornecem informações adicionais sobre os elementos e são sempre especificados na tag inicial. Os atributos geralmente vêm em pares nome/valor como: nome="valor"</p>
+
+        <h3>O atributo href</h3>
+        <p>A  &lt a &gt tag define um hiperlink. O href atributo especifica o URL da página para a qual o link leva:</p>
+        <p>Exemplo:
+            &lt a href="https://www.w3schools.com"&gtVisit W3Schools&lt/a&gt&lt/p&gt.
+        <h3>O atributo src</h3>  
+        <p>A &lt img &gt tag é usada para incorporar uma imagem em uma página HTML. O src atributo especifica o caminho para a imagem a ser exibida:</p>
+        <p>Exemplo
+            &lt img src="img_girl.jpg"&gt </p>
+
+
+    <h2 id="formataçãoHtml">5<sup><small>o</small></sup> Elementos de formatação HTML</h2>
+    <small><a href="#inicio">(Voltar)</a></small>       
+    <p>Os elementos de formatação foram projetados para exibir tipos especiais de texto:</p>
+    <ol type="a">
+        <li>&lt b &gt  <b>Texto em negrito</b></li>
+        <li>&lt strong &gt  <strong>Texto importante</strong></li>
+        <li>&lt i &gt  <i>Texto em itálico</i></li>
+        <li>&lt em &gt  <em>Texto enfatizado</em></li>
+        <li>&lt mark &gt  <mark>Texto marcado</mark></li>
+        <li>&lt small &gt  <small>Texto menor</small></li>
+        <li>&lt del &gt  <del>Texto excluído</del></li>
+        <li>&lt ins &gt  <ins>Texto inserido</ins></li>
+        <li>&lt sub &gt  H<sub>2</sub>O Texto subscrito</li>
+        <li>&lt sup &gt  2<sup>2</sup> sobrescrito</li>
+    </ol>
+
+    <h2 id="referencias">6<sup><small>o</small></sup> Links de Referências</h2>
+    <small><a href="#inicio">(Voltar)</a></small> 
+    <p>Aqui está uma citação do site da W3Schools:</p>
+    <blockquote cite="https://www.w3schools.com/about/default.asp">
+    O maior site de desenvolvedores web da internet.
+    3 bilhões de páginas exibidas a cada ano.
+    70 milhões de visitantes por mês.
+    W3Schools foi criado em 1998 e seu nome deriva da World Wide Web (WWW), mas não é afiliado ao W3C.
+    </blockquote>
+    <blockquote><a href="https://www.w3schools.com/"target="_blank">Visit W3Schools.com!</a></blockquote>
+    
+</body>
+</html>
